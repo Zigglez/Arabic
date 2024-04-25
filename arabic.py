@@ -20,7 +20,7 @@ new = reverse(original)
 count = 1
 
 while new != original:
-    print(f"Row: {count} -> {prev[0:50]}...")
+    print(f"Row: {count} -> {prev}")
     prev = new
     new = reverse(prev)
     count += 1
