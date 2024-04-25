@@ -25,5 +25,5 @@ while new != original:
     new = reverse(prev)
     count += 1
 
-print(f"Row: {count} -> {prev[0:50]}...")
+print(f"Row: {count} -> {prev}")
 print(f"Row: {count+1} -> {new}")
