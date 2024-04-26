@@ -22,7 +22,7 @@ prev = original
 new = reverse(original)
 count = 1
 
-File = open("arabic.csv", 'w')
+File = open("arabic.csv", 'w', encoding='utf-8')
 
 while new != original:
     bufferText = ' '.join(prev)
